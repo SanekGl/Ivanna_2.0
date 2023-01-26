@@ -548,6 +548,9 @@ hr {
 .footer-1 {
   display: flex;
 }
+.footer-1-1 {
+  display: flex;
+}
 .footer-2 {
   display: flex;
 }
@@ -854,15 +857,21 @@ hr {
     margin-top: 45px;
   }
   .footer {
-    font-size: 13px;
-    line-height: 18px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .footer-1-1 {
+    padding-left: 23px;
+    padding-right: 20px;
+    flex-direction: column;
   }
   .footer-t1 {
-    padding: 42px 0 41px 23px;
+    padding: 0;
     white-space: nowrap;
   }
   .footer-t2 {
-    padding: 42px 25px 41px 35px;
+    padding: 9px 0 0 0;
     white-space: nowrap;
   }
   .footer-t3 {
@@ -878,6 +887,6 @@ hr {
     white-space: nowrap;
   }
   .footer-t6 {
-    padding: 36px 46px 37px 28px;
+    padding: 36px 23px 37px 28px;
   }
 }
